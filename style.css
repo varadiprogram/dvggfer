@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    background-color:#242526;
+
+
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .column img{
+    border-style: solid;
+    color: 
+    white;
+  }
+  
+  .column {
+    float: left;
+    padding: 22px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column img:hover{
+    border-style: inset;
+    border-color: goldenrod;
+  }
